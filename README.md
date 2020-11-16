@@ -1,4 +1,4 @@
-# spacex-test
+# Spacex-api-test
 
 For this project i decide to use Vuejs + vuex + sass.
 
