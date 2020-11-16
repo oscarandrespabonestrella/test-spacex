@@ -29,5 +29,4 @@ npm run build
 npm lint lint
 ```
 
-### Customize configuration
 
