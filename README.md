@@ -1,29 +1,33 @@
 # spacex-test
 
+For this project i decide to use Vuejs + vuex + sass.
+
+The assigments are the views folder. The one in charge for the service request is the store, that you cann find in the folder store.
+
+All the styles can be found in the folder assets/styles.
+
+
 ## Project setup
+Enter to the project folder and execute:
+
 ```
-yarn install
+npm  install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
+npm run build
 ```
 
 ### Lints and fixes files
 ```
-yarn lint
+npm lint lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
