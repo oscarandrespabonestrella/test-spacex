@@ -1,0 +1,59 @@
+.top-bar{
+    box-shadow: -2px 2px 6px $main-gray;
+    padding: 0.7em 2em;
+    background: #fff;
+    @media screen and(max-width: $breakpoints-mobile--large){
+        padding: 0.7em 1em;
+    }
+    &-search{
+        display: none;
+        border-left: 1px solid $main-gray;
+        padding-left: 1.5em ;
+        svg{
+            color: $main-gray;
+            font-size: 20px;
+        }
+        input{
+            margin-left:0.5em;
+            border: none;
+            width: fit-content;
+            border-bottom: 1px solid #fff;
+            padding: 0.3em 0.8em;
+            &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: $main-gray;
+                opacity: 1; /* Firefox */
+            }
+            &:focus{
+                outline:none;
+                border-bottom: 1px solid $main-gray;
+            }
+        }
+        @media screen and(min-width: $breakpoints-mobile--large){
+            display: inline-flex;
+        }
+    }
+
+    &-avatar{
+        display: inline-flex;
+        align-items: center;
+        .avatar{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;            
+            background: #ddd;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        span{
+            margin-left: 1em;
+            font-weight: 600;
+            font-size: 1em; 
+            color: $main-black;
+            @media screen and(max-width: $breakpoints-mobile--large){
+                margin-left: 0.5em;
+                font-size: 0.8em;
+            }
+        }
+    }
+}

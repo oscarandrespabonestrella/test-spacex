@@ -1,0 +1,27 @@
+
+@use "sass:map";
+
+
+$container-widths: (
+    mobile: 360px,
+    mobile--large: 480px,
+    tablet: 720px,
+    tablet--large: 960px,
+    desktop: 1160px,
+);
+
+$breakpoints-mobile: 424px; 
+$breakpoints-mobile--large: 544px;
+$breakpoints-tablet: 784px;
+$breakpoints-tablet--large: 1024px;
+$breakpoints-desktop: 1200px;        
+        
+$columns: 12;
+$column-gap: 2rem;
+
+$main-gray: #b4bbc8;
+$main-black: #646678;
+
+
+
+

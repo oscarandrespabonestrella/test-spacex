@@ -1,0 +1,79 @@
+.spacex{
+    .search{
+        input{
+            border: none;
+            background: none;
+            padding: 1em;
+            border: 1px solid $main-gray;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+            
+            &:focus{
+                outline: none;
+            }
+        }
+        button.btn-search{
+            padding: 1em;
+            border-width: 1px;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            background: #5a3fe7;
+            color: #fff;
+            border-color: transparent;
+            outline: none;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    .satellites{
+        input, select{
+            width: 100%;         
+            box-sizing: border-box;   
+            display: inline-block;
+            outline: none;
+            border: 1px solid $main-gray;
+            border-radius: 3px;
+            padding-left: 0.6em;
+            padding-right: 0.6em;
+        }
+        select{
+            height: 100%;
+        }
+        input{
+            height: 35px;
+        }
+
+        .satellite-table{
+            width: 100%;
+            th, td {
+                width: auto;   
+             }    
+            thead{
+                display: table;
+                table-layout: fixed;
+                width: 100%;
+                th{
+                    text-align: left;
+                    padding: 1em;
+                }
+                border-bottom: 1px solid $main-gray;
+            }
+            tbody{
+                overflow-y: auto;
+                display: block;
+                max-height: 10em;
+                max-height: 500px;
+                tr{
+                    display: table;
+                    table-layout: fixed;
+                    width: 100%;
+                    border-bottom: 1px solid lighten($color: $main-gray, $amount: 15%);
+                    td{
+                        padding: 0.8em 1em;
+                    }
+                }
+            }
+        }
+    }
+    }
